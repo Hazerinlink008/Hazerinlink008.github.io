@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="windth=device-width ,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Gestión de Vehículos - Poner y Quitar Candado</title>
+</head>
+
+<body>
+
+    <div class="header">
+        <!-- Gestión de Candado para un Vehículo -->
+        <div class="form-container">
+            <h2>Gestión de Vehículos</h2>
+            <form>
+                <input type="number" placeholder="ID del Vehículo (4 dígitos)" required min="1000" max="9999">
+                <button type="submit">Poner Candado</button>
+                <button type="submit" class="danger">Quitar Candado</button>
+                <button onclick="window.location.href='TALLER_dashboard.html'">Administración</button>
+            </form>
+        </div>
+
+        <!-- Lista de Unidades con Candados -->
+        <div class="list-container">
+            <h3>Unidades con Candado</h3>
+            <ul class="vehicle-list">
+
+                <li>Vehículo ID: 1023 - Candado Activo</li>
+                <li>Vehículo ID: 2045 - Candado Activo</li>
+                <li>Vehículo ID: 3567 - Candado Activo</li>
+                <li>Vehículo ID: 4789 - Candado Activo</li>
+                <li>Vehículo ID: 5891 - Candado Activo</li>
+                <li>Vehículo ID: 5500 - Candado Activo</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="windth=device-width ,initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+
+    <body>
+        <div class="header">
+            <div class="container">
+                <h2>Lista de Choferes Libres</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido</th>
+                            <th>Edad</th>
+                            <th>Número de Licencia</th>
+                            <th>Vehículo Asignado</th>
+                            <th>Último Viaje</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Juan</td>
+                            <td>Pérez</td>
+                            <td>35</td>
+                            <td>ABC123456</td>
+                            <td>No asignado</td>
+                            <td>87654321</td>
+                        </tr>
+                        <tr>
+                            <td>Carlos</td>
+                            <td>Gómez</td>
+                            <td>42</td>
+                            <td>DEF789012</td>
+                            <td>Vehículo ID: 3456</td>
+                            <td>12345678</td>
+                        </tr>
+                        <tr>
+                            <td>Lucía</td>
+                            <td>Martínez</td>
+                            <td>29</td>
+                            <td>GHI345678</td>
+                            <td>No asignado</td>
+                            <td>23456789</td>
+                        </tr>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>Ramírez</td>
+                            <td>48</td>
+                            <td>JKL901234</td>
+                            <td>Vehículo ID: 8765</td>
+                            <td>34567890</td>
+                        </tr>
+                        <tr>
+                            <td>María</td>
+                            <td>Fernández</td>
+                            <td>37</td>
+                            <td>MNO567890</td>
+                            <td>No asignado</td>
+                            <td>45678901</td>
+                        </tr>
+                    </tbody>
+                </table>
+        
+                <!-- Formulario para Asignar Chofer a Unidad y Viaje -->
+                <h3>Asignar Chofer a Unidad y Viaje</h3>
+                <form>
+                    <select name="chofer" required>
+                        <option value="">Selecciona un chofer</option>
+                        <option value="juan_perez">Juan Pérez</option>
+                        <option value="carlos_gomez">Carlos Gómez</option>
+                        <option value="lucia_martinez">Lucía Martínez</option>
+                        <option value="pedro_ramirez">Pedro Ramírez</option>
+                        <option value="maria_fernandez">María Fernández</option>
+                    </select>
+        
+                    <input type="number" placeholder="ID del Vehículo (4 dígitos)" required min="1000" max="9999">
+        
+                    <input type="number" placeholder="ID del Viaje (8 dígitos)" required min="10000000" max="99999999">
+        
+                    <button type="submit">Asignar Chofer</button>
+                </form>
+        
+                <button onclick="window.location.href='planeacion_dashboard.html'">Administración</button>
+            </div>
+        </div>
+        
+        </body>

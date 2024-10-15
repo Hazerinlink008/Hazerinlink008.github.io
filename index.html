@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="windth=device-width ,initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <title>Login Admin y Usuario</title>
+ 
+</head>
+<body>
+<!-- 
+/*<video class="background-video" autoplay loop muted>
+    <source src="Video/0001.mp4" type="video/mp4">
+    Tu navegador no soporta la etiqueta de video.
+</video>Video de fondo -->
+<div class="login-container">
+
+
+    <!-- Login para Administrador -->
+    <div class="login-form" id="admin-login">
+        <h2>  Admin</h2>
+        <form onsubmit="return loginAdmin(event)">
+            <input type="email" id="admin-email" placeholder="Correo electrónico" required>
+            <input type="password" id="admin-password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+
+    <!-- Login para Usuario Normal -->
+    <div class="login-form" id="user-login">
+        <h2> Usuario</h2>
+        <form onsubmit="return loginUser(event)">
+            <input type="email" id="user-email" placeholder="Correo electrónico" required>
+            <input type="password" id="user-password" placeholder="Contraseña" required>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <div class="error" id="login-error"></div>
+    </div>
+</div>
+<script src="Javascript.js"></script>
+
+</body>
+</html>

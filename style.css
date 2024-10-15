@@ -1,0 +1,276 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/*  Margenes para el Login */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}   
+.header {
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7),
+    rgba(151, 42, 42, 0.7)),
+url(images/bg.jpg);
+    font-family: "Poppins", sans-serif;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.login-container {
+    display: flex;
+    gap: 25px;
+}
+.login-form {
+    background-color: rgb(78, 122, 151);
+    padding: 24px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(172, 122, 122, 0.1);
+    width: 300px;
+}
+.login-form h2 {
+    margin-bottom: 15px;
+    text-align: center;
+}
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #1a0e0e;
+    border-radius: 5px;
+}
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a97d6;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color: #0e4f99;
+}
+/*  Margenes para el Login */
+ 
+/*admin_dashboard*/
+
+.dashboard-container {
+    text-align: center;
+}
+button {
+
+    padding: 15px 30px;
+    margin: 10px;
+    background-color: #38c0d8;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    
+    background-color: #0d0f79;
+}
+
+/*VODEP*/
+.background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -1; /* Para que el video esté detrás del contenido */
+}
+
+h2 {
+
+    margin-bottom: 30px;
+    color: #16121b;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+
+}
+.button {
+    display: inline-block;
+    padding: 20px;
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+ 
+/*admin_dashboard*/
+
+/*Gestionar Roles*/
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*Gestionar Roles*/
+
+/*gestionar_candados*/
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input, select, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+/*gestionar_candados*/
+
+/*ver ususaris*/
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #44a9d8;
+    color: white;
+}
+tr:hover {
+    background-color: #f5f5f5;
+}
+h1 {
+    text-align: center;
+}
+
+/*ver usuarios*/
+
+
+/*consultar*/
+
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/*consultar*/
+/*Gestion de vehiculos*/
+ 
+ 
+.list-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+} 
+.vehicle-list {
+    list-style-type: none;
+    padding: 0;
+}
+.vehicle-list li {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+/*Gestion de vehiculos*/
+
+/*Admin_choferes_libres*/
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: #007BFF;
+    color: white;
+}
+td {
+    background-color: #f2f2f2;
+}
+/*Admin_choferes_libres*/
+

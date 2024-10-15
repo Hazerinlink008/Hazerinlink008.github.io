@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="windth=device-width ,initial-scale=1.0">
+        <title>Carga de combustible</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+
+
+    
+    <div class="container">
+        <h2>Registrar Carga/Descarga de Combustible</h2>
+
+        <form>
+            <label for="vehiculo">Vehículos Pendientes:</label>
+            <select id="vehiculo">
+                <option value="1234">Vehículo 1234</option>
+                <option value="5678">Vehículo 5678</option>
+                <option value="9101">Vehículo 9101</option>
+            </select>
+
+            <label for="cantidad">Cantidad de Combustible (litros):</label>
+            <input type="number" id="cantidad" placeholder="Ingrese la cantidad en litros" required>
+
+            <label for="accion">Acción:</label>
+            <select id="accion">
+                <option value="carga">Carga de Combustible</option>
+                <option value="descarga">Descarga de Combustible</option>
+            </select>
+
+            <button type="submit">Registrar</button>
+
+            <button onclick="window.location.href='Diesel_dashboard.html'">Administración</button>
+
+        </form>
+    </div>
+</body>
+
+
+
+</html>
